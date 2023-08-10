@@ -1,9 +1,10 @@
+import './Score.css'
+
 export default function Score ({score}) {
-    return(
-        <div>
-            <p>
-                Date: {score.date} Score: {score.score}
-            </p>
-        </div>
-    )
+    return (
+        <tr className="score-row">
+          <td className="score-date">{score.date}</td>
+          <td className="score-value">{score.score}</td>
+        </tr>
+      );
 }

@@ -1,0 +1,17 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color:rgb(157, 160, 194)
+  }
+  
+  table th,
+  table td {
+    padding: 0.5rem;
+    text-align: left;
+    background-color:rgb(157, 160, 194)
+  }
+  
+  table th {
+    font-weight: bold;
+  }
+  

@@ -68,7 +68,7 @@ export default function App() {
   return (
     <>
       <h1>Students</h1>
-      {students.map((student)=> (
+      {students.map((student) => (
         <Student key={student.name} student={student} />
       ))}
     </>
